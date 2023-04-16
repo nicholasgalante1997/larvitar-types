@@ -2,3 +2,4 @@ lib/
 .tsbuildinfo
 node_modules/
 yarn.lock
+.env
