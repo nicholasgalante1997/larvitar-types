@@ -101,7 +101,7 @@ async function runScrape() {
       sets,
       set,
       card,
-      setIds: sets.map((set) => ({ name: set.name, setId: set.id })),
+      setIds: sets.map((set) => ({ name: set.name, id: set.id })),
     };
 
     console.info('Writing out to file "src/json/pokedex.json"...');
